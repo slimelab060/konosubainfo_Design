@@ -1,5 +1,4 @@
 <template>
-  <header class="container mx-auto">
     <div class="navbar bg-base-100">
       <div class="dropdown lg:hidden">
         <button class="btn btn-square btn-ghost dropdown lg:hidden">
@@ -151,7 +150,6 @@
         </ul>
       </div>
     </div>
-  </header>
 </template>
 
 <script>

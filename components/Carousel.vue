@@ -17,7 +17,7 @@
     :preload-images="false"
     lazy
     :thumbs="{ swiper: thumbs }"
-    class="container p-4 sm:w-[20rem] md:w-[30rem] xl:w-[44rem]"
+    class="container p-4 w-[20rem] sm:w-[20rem] md:w-[30rem] xl:w-[44rem]"
   >
     <SwiperSlide v-for="n in images" :key="n" class="mx-auto">
       <img :src="n" class="swiper-lazy rounded-2xl lg:h-48 h-36 w-full object-cover object-center" />

@@ -1,48 +1,37 @@
 <template>
-  <div class="bg-slate-100">
+  <div class="bg-blue-100">
     <div
-      class="min-h-screen container md:flex flex-col max-w-7xl mx-auto px-4 sm:px-6 md:px-8"
+      class="grid overflow-hidden container auto-cols-auto auto-rows-auto gap-1 mx-auto"
     >
-      <header class="p-2"><Header /></header>
-      <div class="flex-1 flex flex-col sm:flex-row">
-        <main class="flex-1 bg-indigo-500 flex-grow">
-          <div class="flex-1 md:flex md:flex-row bg-red-100 p-4">
-            <Carousel />
-          </div>
-          <div class="flex flex-row flex-wrap gap-2 bg-blue-600 rounded-lg p-4">
-            <h2 class="text-xl font-extrabold text-white">クイックメニュー</h2>
-            <div class="flex flex-wrap gap-2">
-            <button class="btn">アリーナ</button>
-            <button class="btn">アリーナEX</button>
-            <button class="btn">アシスト</button>
-            <button class="btn">アイテム素材</button>
-            <button class="btn">イベント</button>
-            <button class="btn">ガチャ</button>
-            <button class="btn">キャラクタ</button>
-            <button class="btn">ダンジョン</button>
-            <button class="btn">初心者</button>
-            <button class="btn">メインクエスト</button>
-            <button class="btn">装飾品</button>
-            <button class="btn">武器</button>
-            <button class="btn">その他</button>
-          </div>
-          </div>
-        </main>
-        <nav class="order-first bg-purple-200 p-4 hidden lg:inline-block">
+      <div class="bg-slate-300 col-start-1 col-end-8"><Header /></div>
+      <nav>
+        <div class="bg-blue-500 row-start-2 col-start-1 hidden lg:inline-block">
           <SideMenu />
-        </nav>
-        <aside class="bg-yellow-500 content-center p-4">
-        <h2 class="text-xl font-extrabold text-white mb-4">公式Twitter</h2>
-          <a
-            class="twitter-timeline"
-            data-height="400"
-            data-width="150"
-            href="https://twitter.com/konosubafd?ref_src=twsrc%5Etfw"
-            >Tweets by konosubafd</a
-          >
-        </aside>
+        </div>
+      </nav>
+      <main>
+        <div class="bg-green-500 col-start-2 col-end-5"><Carousel /></div>
+      </main>
+
+      <div class="bg-red-700 col-start-5 col-end-7">
+        <h2>ゲーム著作権権限</h2>
+        <p>
+          ©2019 暁なつめ・三嶋くろね/KADOKAWA/映画このすば制作委員会<br />
+          ©Sumzap, Inc. <br />
+          当サイト上で使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。<br />
+          このファン公式サイト
+        </p>
       </div>
-      <footer><Footer /></footer>
+      <div class="bg-yellow-500 col-start-7 col-end-8">
+        <a
+          class="twitter-timeline"
+          data-height="400"
+          data-width="150"
+          href="https://twitter.com/konosubafd?ref_src=twsrc%5Etfw"
+          >Tweets by konosubafd</a
+        >
+      </div>
+      <div class="bg-red-500 row-start-3 col-start-1 col-end-8"><Footer /></div>
     </div>
   </div>
 </template>
@@ -58,6 +47,7 @@ import SideMenu from "@/components/SideMenu.vue";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Footer1 from "@/components/Footer.vue";
 
 export default {
   componets: {
@@ -67,7 +57,6 @@ export default {
     Carousel,
     SideMenu,
   },
-
   head() {
     return {
       script: [
@@ -80,9 +69,9 @@ export default {
       ],
     };
   },
-
   mounted() {
     window.twttr.widgets.load();
   },
+  components: { Footer1 },
 };
 </script>
