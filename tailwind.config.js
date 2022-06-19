@@ -1,3 +1,4 @@
+
 module.exports = {
 
   content: [
@@ -8,9 +9,33 @@ module.exports = {
     './plugins/**/*.{js,ts}',
   ],
   theme: {
-    extend: {},
+
+    extend: {
+      gridTemplateColumns: {
+        'test': 'minmax(0, 1fr) minmax(0, 40.25rem) minmax(0, 1fr)',
+      },
+      gridTemplateRows: {
+        'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
+        'auto-fill': 'repeat(auto-fill, minmax(0, 1fr))',
+      },
+
+      colors:{
+        konosuba:{
+        'blue': '#009ce1',
+        'red': '#e4006e',
+        'green': '#91c31d',
+        'orange': '#ef8200',
+      },
+      },
+    },
   },
-  plugins: [require("daisyui")],
+  
+  plugins: [
+    // Docs: https://tailwindcss.com/docs/typography-plugin
+    require("@tailwindcss/typography"),
+    // Docs: https://daisyui.com/docs
+    require("daisyui"),
+  ],
 
   daisyui: {
     styled: true,
@@ -20,6 +45,6 @@ module.exports = {
     logs: true,
     rtl: false,
     prefix: "",
-    darkTheme: "light",
+    darkTheme: "",
   },
 }
