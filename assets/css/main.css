@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+
+    .konosuba-title-blue{
+        @apply text-2xl font-bold border-l-[5px] border-konosuba-blue p-2;
+    }
+
+    .konosuba-title-red{
+        @apply text-2xl font-bold border-l-[5px] border-konosuba-red p-2;
+    }
+
+    .konosuba-title-green{
+        @apply text-2xl font-bold border-l-[5px] border-konosuba-green p-2;
+    }
+
+    .konosuba-title-orange{
+        @apply text-2xl font-bold border-l-[5px] border-konosuba-orange p-2;
+    }
+}

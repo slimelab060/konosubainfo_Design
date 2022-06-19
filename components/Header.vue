@@ -1,128 +1,25 @@
 <template>
-    <div class="navbar bg-base-100">
-      <div class="dropdown lg:hidden">
-        <button class="btn btn-square btn-ghost dropdown lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            class="inline-block w-5 h-5 stroke-current"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </button>
-        <ul
-          tabindex="0"
-          class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
-        >
-          <li>
-            <a>
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                ></path>
-              </svg>
-              ホーム
-            </a>
-          </li>
 
-          <li>
-            <a>
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                ></path>
-              </svg>
-              イベント
-            </a>
-          </li>
+  <header class="sticky top-0 w-full bg-base-100 z-30 mb-4 shadow-sm">
+    <div class="navbar">
+      <div class="flex-1 gap-2">
+        <a class="btn btn-ghost normal-case text-xl gap-2">
+          <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
+            <span class="font-title text-lg font-extrabold sm:text-2xl">このファンまとめ</span>
+          </div>
+          <span class="font-mono text-xs text-opacity-50">α1.5 b20220619-157</span>
+        </a>
 
-          <li>
-            <a>
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                ></path>
-              </svg>
-              キャラクタ
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M 12 2.94336 C 14.3567 5.05797 17.4561 6.15127 20.618 5.98336 C 20.867 6.94736 21 7.95736 21 8.99936 C 21 14.5914 17.176 19.2894 12 20.6214 C 6.824 19.2894 3 14.5904 3 8.99936 C 2.99918 7.98191 3.12754 6.96847 3.382 5.98336 C 6.5439 6.15127 9.64327 5.05797 12 2.94336 Z"
-                ></path>
-              </svg>
-              アリーナ
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                />
-              </svg>
-              その他
-            </a>
-          </li>
-        </ul>
+        <div class="form-control">
+          <input type="text" placeholder="検索…" class="input input-bordered" />
+        </div>
       </div>
-      <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">このファンまとめ V.α1</a>
+
+      <div class="flex gap-4">
+        <select class="select w-full max-w-xs" v-model="colorMode.preference">
+          <option disabled selected>Theme</option>
+          <option v-for="theme of themes" :key="theme">{{ theme }}</option>
+        </select>
       </div>
 
       <div class="dropdown dropdown-end">
@@ -150,10 +47,42 @@
         </ul>
       </div>
     </div>
+  </header>
 </template>
 
-<script>
-export default {};
+<script setup>
+const colorMode = useColorMode();
+const themes = [
+  "light",
+  "dark",
+  "cupcake",
+  "bumblebee",
+  "emerald",
+  "corporate",
+  "synthwave",
+  "retro",
+  "cyberpunk",
+  "valentine",
+  "halloween",
+  "garden",
+  "forest",
+  "aqua",
+  "lofi",
+  "pastel",
+  "fantasy",
+  "wireframe",
+  "black",
+  "luxury",
+  "dracula",
+  "cmyk",
+  "autumn",
+  "business",
+  "acid",
+  "lemonade",
+  "night",
+  "coffee",
+  "winter",
+];
 </script>
 
 <style lang="scss" scoped></style>
