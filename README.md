@@ -26,7 +26,7 @@ Functional implementation will be created in a separate repository.
 
 (バージョン)-(ビルド日時)-(ビルドした回数)-(公開 or 一部公開 or 非公開) 
 
-・バージョン :上記参照
+・バージョン : 上記参照
 ・ビルド日時 : ビルドした日時
 ・ビルドした回数 : 主にデバッグした回数をカウントします。
 
@@ -34,7 +34,7 @@ Functional implementation will be created in a separate repository.
 ・一部公開 : DiscordまたはTwitterで情報公開するときのみに使用します。
 ・非公開   : ローカル内で完結したときに使用されます。
 
-※公開部分はTwitterやGitHubのみで使用され内部では書きません。
+※公開部分はTwitterやGitHubのみで使用されるもので内部データにはありません。
 ```
 
 ## 🖥最新更新履歴
