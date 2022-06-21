@@ -7,7 +7,7 @@
           <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
             <span class="font-title text-lg font-extrabold sm:text-2xl">このファンまとめ</span>
           </div>
-          <span class="font-mono text-xs text-opacity-50">α1.5 b20220619-157</span>
+          <span class="font-mono text-xs text-opacity-50">α1.6 b20220621-159</span>
         </a>
 
         <div class="form-control">
