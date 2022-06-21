@@ -90,4 +90,4 @@ Functional implementation will be created in a separate repository.
 - タイマー同期処理を修正  
 
 **α1.0-b20220516-1(非公開)**  
-- 簡易フレームワーク作成  
+- 簡易フレームワークの作成
