@@ -91,8 +91,3 @@ Functional implementation will be created in a separate repository.
 
 **α1.0-b20220516-1(非公開)**  
 - 簡易フレームワーク作成  
-<<<<<<< HEAD
-- タイマー作成  
-=======
-- タイマー作成  
->>>>>>> bf31fc264ee4bd479f7367d1e6dad9bd6923b513
