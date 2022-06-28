@@ -39,7 +39,7 @@ Functional implementation will be created in a separate repository.
 
 ## 🖥最新更新履歴
 
-**α1.8-b20220628-190(公開)**  
+**α1.8 ～ α1.8.7-b20220628-190(公開)**  
 - app.vueをNuxtPageに変更
 - 今まで統合されていた機能をコンポネント化
 - AboutとPrivacypolicyのページ追加(中身はまだない)
