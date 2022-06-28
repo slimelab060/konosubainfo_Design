@@ -3,12 +3,13 @@
   <header class="sticky top-0 w-full bg-base-100 z-30 mb-4 shadow-sm">
     <div class="navbar">
       <div class="flex-1 gap-2">
-        <a class="btn btn-ghost normal-case text-xl gap-2">
+        <!-- ホームページリンクは仮です-->
+        <nuxt-link class="btn btn-ghost normal-case text-xl gap-2" to="localhost:3000">
           <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
             <span class="font-title text-lg font-extrabold sm:text-2xl">このファンまとめ</span>
           </div>
-          <span class="font-mono text-xs text-opacity-50">α1.6 b20220621-159</span>
-        </a>
+          <span class="font-mono text-xs text-opacity-50">α1.8.7 b20220628-190</span>
+        </nuxt-link>
 
         <div class="form-control">
           <input type="text" placeholder="検索…" class="input input-bordered" />
@@ -42,8 +43,8 @@
           tabindex="0"
           class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
         >
-          <li><a>プライバシーポリシー</a></li>
-          <li><a>このサイトについて</a></li>
+          <li><nuxt-link to="/privacypolicy">プライバシーポリシー</nuxt-link></li>
+          <li><nuxt-link to="/about">このサイトについて</nuxt-link></li>
         </ul>
       </div>
     </div>
@@ -61,7 +62,6 @@ const themes = [
   "corporate",
   "synthwave",
   "retro",
-  "cyberpunk",
   "valentine",
   "halloween",
   "garden",
@@ -70,7 +70,6 @@ const themes = [
   "lofi",
   "pastel",
   "fantasy",
-  "wireframe",
   "black",
   "luxury",
   "dracula",

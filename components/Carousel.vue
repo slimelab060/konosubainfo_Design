@@ -56,13 +56,13 @@
 /*カスタム矢印 */
 .swiper-button-prev {
 
-  background-image:url("/img/nextprev.svg");
+  background-image:url("assets/img/nextprev.svg");
   transform: scale(-1, 1);
 }
 
 .swiper-button-next {
 
-  background-image:url("/img/nextprev.svg");
+  background-image:url("assets/img/nextprev.svg");
 }
 
 /*カスタムナビゲーション色変更 */
@@ -110,11 +110,11 @@ export default {
       onSwiper,
       Autoplay,
       images: [
-        "/img/testimg01.jpg",
-        "/img/testimg02.jpg",
-        "/img/testimg03.jpg",
-        "/img/testimg04.jpg",
-        "/img/testimg05.jpg",
+        "assets/img/testimg01.jpg",
+        "assets/img/testimg02.jpg",
+        "assets/img/testimg03.jpg",
+        "assets/img/testimg04.jpg",
+        "assets/img/testimg05.jpg",
       ],
       Navigation,
       Pagination,
