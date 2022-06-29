@@ -1,6 +1,5 @@
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-
   content: [
     './app.{vue,js,ts,jsx,tsx}',
     './components/**/*.{vue,js,ts,jsx,tsx}',
@@ -8,8 +7,8 @@ module.exports = {
     './pages/**/*.{vue,js,ts,jsx,tsx}',
     './plugins/**/*.{js,ts}',
   ],
-  theme: {
 
+  theme: {
     extend: {
       gridTemplateColumns: {
         'test': 'minmax(0, 1fr) minmax(0, 40.25rem) minmax(0, 1fr)',
@@ -29,22 +28,23 @@ module.exports = {
       },
     },
   },
-  
+
   plugins: [
-    // Docs: https://tailwindcss.com/docs/typography-plugin
-    require("@tailwindcss/typography"),
-    // Docs: https://daisyui.com/docs
-    require("daisyui"),
+  // Docs: https://tailwindcss.com/docs/typography-plugin
+  require("@tailwindcss/typography"),
+  // Docs: https://daisyui.com/docs
+  require("daisyui"),
   ],
 
-  daisyui: {
-    styled: true,
-    themes: true,
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    prefix: "",
-    darkTheme: "",
-  },
+daisyui: {
+  styled: true,
+  themes: true,
+  base: true,
+  utils: true,
+  logs: true,
+  rtl: false,
+  prefix: "",
+  darkTheme: "",
+},
+
 }
