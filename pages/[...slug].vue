@@ -1,3 +1,5 @@
 <template>
 
+ <content-doc />
+
 </template>
