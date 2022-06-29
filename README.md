@@ -41,7 +41,7 @@ Functional implementation will be created in a separate repository.
 
 
 **α1.9 b20220629-194(公開)**
-- TailwindCSS(Naitive)からNuxtTailwindCSSに変更
+- TailwindCSS(Native)からNuxtTailwindCSSに変更
 - プラグインアップデート
 - コード修正
 
