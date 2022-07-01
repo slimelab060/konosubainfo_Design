@@ -4,14 +4,14 @@
     <div class="navbar">
       <div class="flex-1 gap-2">
         <!-- ホームページリンクは仮です-->
-        <nuxt-link class="btn btn-ghost normal-case text-xl gap-2" to="localhost:3000">
+        <nuxt-link class="btn btn-ghost normal-case text-xl gap-2" to="/">
           <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
             <span class="font-title text-lg font-extrabold sm:text-2xl">このファンまとめ</span>
           </div>
-          <span class="font-mono text-xs text-opacity-50">α1.9 b20220629-194</span>
+          <span class="font-mono text-xs text-opacity-50">α1.9.1 b20220701-196</span>
         </nuxt-link>
 
-      <div class="form-control">
+        <div class="form-control">
           <input type="text" placeholder="検索…" class="input input-bordered" />
         </div>
       </div>
