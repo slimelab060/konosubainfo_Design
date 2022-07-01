@@ -4,7 +4,7 @@
   <div class="fixed z-0 inset-x-0 hidden lg:inline-block overflow-hidden pointer-events-none">
     <div class="flex-none flex justify-center bg-cover">
       <picture>
-        <img src="assets/img/headerback/bg_pc_top_01.png" />
+        <img src="assets/img/headerback/bg_pc_top_02.png" />
       </picture>
     </div>
   </div>
@@ -39,6 +39,7 @@
     <!--最新情報-->
   <div class="lg:col-start-1 lg:col-end-3">
      <Infoside/>
+
   </div>
 
     <!--著作権表記-->
@@ -61,7 +62,7 @@
 </div>
 
 <Footer />
-  </div>
+</div>
 </template>
 
 <script>
@@ -73,7 +74,8 @@ import "swiper/css/pagination";
 
 
 export default {
-
+  
+watchQuery: ['page'],
     head() {
         return {
             script: [

@@ -1,5 +1,5 @@
 <template>
-
- <content-doc />
-
+  <main>
+    <ContentDoc path="/pages"/>
+  </main>
 </template>
