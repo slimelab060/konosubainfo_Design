@@ -1,14 +1,14 @@
 <template>
 
-  <header class="sticky top-0 w-full bg-base-100 z-30 mb-4 shadow-sm">
+  <header class="sticky top-0 w-full bg-base-100 z-30 shadow-sm">
     <div class="navbar">
       <div class="flex-1 gap-2">
         <!-- ホームページリンクは仮です-->
         <nuxt-link class="btn btn-ghost normal-case text-xl gap-2" to="/">
           <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
-            <span class="font-title text-lg font-extrabold sm:text-2xl">このファンまとめ</span>
+            <span class="font-title text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-500 font-extrabold sm:text-2xl">このファンまとめ</span>
           </div>
-          <span class="font-mono text-xs text-opacity-50">α1.9.1 b20220701-196</span>
+          <span class="font-mono text-xs text-opacity-50">α2.0 b20220704-205</span>
         </nuxt-link>
 
         <div class="form-control">

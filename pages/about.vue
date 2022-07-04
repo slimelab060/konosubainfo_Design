@@ -1,18 +1,21 @@
 <template>
+<div>
 <Header/>
-  <h1>Blog</h1>
+<Background/>
+
+  <h1 class="z-30">Blog</h1>
   <ul>
     <li v-for="{ _path: slug, title } in blogPosts" :key="slug">
       <NuxtLink :to="slug" class="bg-white btn">{{ title }}</NuxtLink>
     </li>
   </ul>
   <Footer/>
+  </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 
-const blogPosts = await queryContent('/')
-  .sort({ date: -1 }) // show latest articles first
-  .where({ _partial: false }) // exclude the Partial files
-  .find();
+const {data: blignav} = await useAsyncData("navigation", () => { return fetchContentNavigation(queryContent("blog"));
+});
+
 </script>
