@@ -1,19 +1,17 @@
 <template>
+<div>
+
   <Swiper
     @swiper="onSwiper"
     :slides-per-view="1"
-    :navigation="swiperNavigation"
     :centeredSlides="true"
     :space-between="10"
     :autoplay="{ delay: 3000, disableOnInteraction: false }"
     :clickable="true"
     :loop="true"
+    :navigation="swiperNavigation"
     :modules="[Navigation, Pagination, A11y, Lazy, Thumbs, Autoplay]"
-    navigation
-    :pagination="{
-      clickable: true,
-      dynamicBullets: false,
-    }"
+    :pagination="pagination"
     :preload-images="false"
     lazy
     :thumbs="{ swiper: thumbs }"
@@ -25,13 +23,14 @@
     >
       <img
         :src="n"
-        class="swiper-lazy w-full rounded-3xl object-cover object-center"
+        class="swiper-lazy w-full rounded-lg object-cover object-center"
       />
     </SwiperSlide>
-
     <div slot="button-prev" class="swiper-button-prev"></div>
     <div slot="button-next" class="swiper-button-next"></div>
   </Swiper>
+    <div slot="pagination" class="swiper-pagination"></div>
+</div>
 </template>
 
 <style>
@@ -66,12 +65,19 @@
 }
 
 /*カスタムナビゲーション色変更 */
-.swiper-pagination-bullet {
+.swiper-pagination-bullet{
   width: 14px !important;
   height: 14px !important;
-  margin: 0 0 0 10px !important;
   background: rgb(255, 255, 255) !important;
   border: 2px solid rgb(25, 25, 25);
+}
+
+/*位置調整*/
+.swiper-pagination {
+  position: relative !important;
+  text-align: center  !important;
+  bottom:-10px  !important;
+  z-index: 10  !important;
 }
 </style>
 
@@ -81,6 +87,7 @@ import { Navigation, Pagination, A11y, Lazy, Thumbs, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 export default {
+
   components: {
     Swiper,
     SwiperSlide,
@@ -105,22 +112,32 @@ export default {
       swiperRef.value = swiper;
     };
 
+    
+
     return {
       swiperRef,
       onSwiper,
       Autoplay,
       images: [
-        "assets/img/testimg01.jpg",
-        "assets/img/testimg02.jpg",
-        "assets/img/testimg03.jpg",
-        "assets/img/testimg04.jpg",
-        "assets/img/testimg05.jpg",
+
+        "assets/img/infomationbanner/banner_1.png",
+        "assets/img/infomationbanner/banner_2.png",
+        "assets/img/infomationbanner/banner_3.png",
+        "assets/img/infomationbanner/banner_4.png",
+        "assets/img/infomationbanner/banner_5.png",
+
       ],
       Navigation,
       Pagination,
       A11y,
       Lazy,
       Thumbs,
+
+        pagination:{
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: false,
+        },
 
         swiperNavigation: {
           nextEl: ".swiper-button-next",
