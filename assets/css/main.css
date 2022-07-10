@@ -19,4 +19,5 @@
     .konosuba-title-orange{
         @apply text-2xl font-bold border-l-[5px] border-konosuba-orange p-2;
     }
+    
 }
