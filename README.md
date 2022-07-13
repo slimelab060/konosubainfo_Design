@@ -1,4 +1,4 @@
-(1.png)
+![picture 1](/1docimg/1.png)
 
 # Konosubainfo_Design
 
