@@ -119,13 +119,11 @@ export default {
       onSwiper,
       Autoplay,
       images: [
-
         "assets/img/infomationbanner/banner_1.png",
         "assets/img/infomationbanner/banner_2.png",
         "assets/img/infomationbanner/banner_3.png",
         "assets/img/infomationbanner/banner_4.png",
         "assets/img/infomationbanner/banner_5.png",
-
       ],
       Navigation,
       Pagination,

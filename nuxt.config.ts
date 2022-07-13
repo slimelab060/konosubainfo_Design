@@ -2,7 +2,13 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-   modules: ['@nuxtjs/color-mode','@nuxt/content','@nuxtjs/tailwindcss','@pinia/nuxt'],
+   modules: ['@nuxtjs/color-mode',
+             '@nuxt/content',
+             '@nuxtjs/tailwindcss',
+             '@pinia/nuxt',
+             '@vueuse/nuxt'
+            ],
+            
     css: ["@/assets/css/main.css"],
     build: {
       postcss: {
