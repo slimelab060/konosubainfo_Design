@@ -6,6 +6,14 @@ This repository produces the design for the Konofan summary website.
 
 Functional implementation will be created in a separate repository.
 
+## これは何？
+これはこのファンサイトのフロント部分のソースコードです。 
+まだサイトは見ることはできません。   
+これを公開している理由は、単にバージョン管理と保存が目的です。   
+あとは一人で開発していてなおかつ時間がかかるので、できるのなら協力してほしいという理由もあって公開しています。    
+ただ言語の知識がある人とPCを持っている人限定です。(ごめんなさい🙇 ただmdならいけるかも)  
+なぜDiscord限定で公開しているのか、それはTwitterでの不特定多数に見せるのが嫌だからです。  
+Twitterにリンク張るのは正式版のみで開発版はDiscord経由にして見る人を分けています。
 
 ## このファンまとめ オリジナルα版  更新履歴
 
@@ -28,7 +36,7 @@ Functional implementation will be created in a separate repository.
 
 ・バージョン : 上記参照
 ・ビルド日時 : ビルドした日時
-・ビルドした回数 : 主にデバッグした回数をカウントします。
+・ビルドした回数 : 主にデバッグした回数をカウントします。(感覚)
 
 ・公開     : GitHub Pushした時と情報公開の両方のときに使用されます。
 ・一部公開 : DiscordまたはTwitterで情報公開するときのみに使用します。
@@ -38,6 +46,22 @@ Functional implementation will be created in a separate repository.
 ```
 
 ## 🖥最新更新履歴
+
+**α2.4 b20220713-220(公開)**
+- 説明書更新
+- 細かな修正
+- ヘッダー画像更新(Png → Webp形式変更)
+- プラグイン更新
+- これによりボトムナビゲーションが使えるようになった
+- セキュリティーアップデート(parse-path&parse-url)
+
+**α2.3 b20220711-217(一部公開)**
+- 一部ファイル削除
+- URL公開に合わせてインシデント修正
+- Vueuseプラグイン追加
+
+**α2.0 b20220706-206(非公開)**
+- 細かな修正
 
 **α1.9.8 b20220704-203(公開)**
 - swiper挙動を修正＆8.2.6にアップデート

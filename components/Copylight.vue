@@ -1,5 +1,5 @@
 <template>
-  <h2 class="konosuba-title-blue">ゲーム権利表示</h2>
+  <h2 class="konosuba-title-red">ゲーム権利表示</h2>
   <p class="py-4 text-sm overflow-auto h-20">
     ©2019 暁なつめ・三嶋くろね/KADOKAWA/映画このすば制作委員会 ©Sumzap, Inc.
     <br />
