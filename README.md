@@ -1,3 +1,5 @@
+(1.png)
+
 # Konosubainfo_Design
 
 This repository produces the design for the Konofan summary website.
@@ -8,7 +10,7 @@ Functional implementation will be created in a separate repository.
 
 ## これは何？
 これはこのファンサイトのフロント部分のソースコードです。 
-まだサイトは見ることはできません。   
+まだサイトは見ることはできませんがこのリポジトリをクローンして環境を整えると使えるようになります。   
 これを公開している理由は、単にバージョン管理と保存が目的です。   
 あとは一人で開発していてなおかつ時間がかかるので、できるのなら協力してほしいという理由もあって公開しています。    
 ただ言語の知識がある人とPCを持っている人限定です。(ごめんなさい🙇 ただmdならいけるかも)  
