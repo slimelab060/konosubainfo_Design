@@ -1,5 +1,3 @@
-![picture 1](/1docimg/1.png)
-
 # Konosubainfo_Design
 
 This repository produces the design for the Konofan summary website.
@@ -7,6 +5,8 @@ This repository produces the design for the Konofan summary website.
 ## Information
 
 Functional implementation will be created in a separate repository.
+
+![picture 1](/1docimg/1.png)
 
 ## これは何？
 これはこのファンサイトのフロント部分のソースコードです。 
