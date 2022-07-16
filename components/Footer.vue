@@ -1,6 +1,5 @@
 <template>
-  <footer
-    class="footer relative z-40 footer-center bg-base-300 rounded-t-lg p-4 text-base-content mt-4">
+  <footer class="sticky top-[100vh] mt-auto footer footer-center bg-base-300 rounded-t-lg text-base-content p-4">
     <div>
       <p>© 2022 Creeper 060</p>
     </div>
