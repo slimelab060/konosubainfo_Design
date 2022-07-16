@@ -1,6 +1,6 @@
 <template>
 <div>
-
+<ClientOnly>
   <Swiper
     @swiper="onSwiper"
     :slides-per-view="1"
@@ -30,6 +30,7 @@
     <div slot="button-next" class="swiper-button-next"></div>
   </Swiper>
     <div slot="pagination" class="swiper-pagination"></div>
+</ClientOnly>
 </div>
 </template>
 
