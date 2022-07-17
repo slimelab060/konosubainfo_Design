@@ -15,7 +15,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'test': 'minmax(0, 1fr) minmax(0, 40.25rem) minmax(0, 1fr)',
+        'content': 'minmax(0, 4fr) minmax(0, 1fr)',
       },
       gridTemplateRows: {
         'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
