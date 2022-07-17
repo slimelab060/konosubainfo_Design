@@ -11,7 +11,7 @@
   <Konosubalogo/>
 
     <!--メインコンテンツ-->
-  <div class="sticky grid gap-4 grid-cols-1 lg:grid-cols-content lg:bg-base-200 lg:bg-opacity-70 lg:rounded-lg max-w-[97.5rem] mx-auto p-4">
+  <div class="sticky grid gap-4 grid-cols-1 lg:grid-cols-content lg:bg-base-200 lg:bg-opacity-70 lg:rounded-lg max-w-[96rem] mx-auto p-4">
 
     <!--お知らせバナー-->
     <div class="lg:rounded-lg lg:col-start-1">
