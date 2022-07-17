@@ -8,7 +8,7 @@
           <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
             <span class="font-title text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-500 font-extrabold sm:text-2xl">このファンまとめ</span>
           </div>
-          <span class="font-mono text-xs text-opacity-50">α2.5 b20220714-222</span>
+          <span class="font-mono text-xs text-opacity-50">α2.6 b20220716-231</span>
         </nuxt-link>
 
         <div class="form-control">

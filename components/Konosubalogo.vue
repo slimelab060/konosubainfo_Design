@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center relative z-10 mx-auto rounded-b-lg m-4">
+  <div class="flex relative justify-center mx-auto m-4">
     <picture>
       <img
         src="assets/img/headerback/logol.png"
