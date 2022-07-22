@@ -2,10 +2,10 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   
     "extends": ["@nuxtjs"],
-    "ignorePresets": [":prHourlyLimit2"],
+    "schedule": ["before 10am"],
     "timezone": "Asia/Tokyo",
+    "prConcurrentLimit": 5,
     "dependencyDashboard": false,
-    "automerge": true,
-    "branchConcurrentLimit": 0
+    "automerge": true
   }
   
