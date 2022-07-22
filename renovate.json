@@ -2,10 +2,22 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   
     "extends": ["@nuxtjs"],
-    "schedule": ["before 10am"],
     "timezone": "Asia/Tokyo",
+    "schedule": ["before 10am"],
+    "labels": ["renovate"],
     "prConcurrentLimit": 5,
     "dependencyDashboard": false,
-    "automerge": true
+    "automerge": true,
+    
+    "lockFileMaintenance": {
+        "enabled": true
+      },
+
+    "packageRules": [
+        {
+          "packagePatterns": ["^swiper"],
+          "enabled": false
+        }
+    ]
   }
   
