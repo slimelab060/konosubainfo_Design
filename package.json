@@ -14,7 +14,7 @@
     "@tailwindcss/typography": "^0.5.4",
     "@vueuse/nuxt": "^8.9.4",
     "autoprefixer": "^10.4.7",
-    "daisyui": "^2.19.1",
+    "daisyui": "^2.20.0",
     "nuxt": "^3.0.0-rc.6",
     "postcss": "^8.4.14"
   },
