@@ -1,5 +1,13 @@
 <template>
   <div>
-      <NuxtPage />
+    <NuxtPage />
   </div>
 </template>
+
+<script setup>
+useHead({
+  bodyAttrs: {
+    class: "min-h-screen",
+  },
+});
+</script>
