@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
   content: [
     `components/**/*.{vue,js}`,
     `layouts/**/*.vue`,
@@ -11,6 +12,8 @@ module.exports = {
     `Error.{js,ts,vue}`,
     `error.{js,ts,vue}`
   ],
+
+  darkMode: 'class',
 
   theme: {
     extend: {
@@ -45,10 +48,10 @@ daisyui: {
   themes: true,
   base: true,
   utils: true,
-  logs: true,
+  logs: false,
   rtl: false,
   prefix: "",
-  darkTheme: "",
+  darkTheme: "night",
 },
 
 }

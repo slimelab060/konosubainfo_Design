@@ -5,5 +5,7 @@
     <br />
     当サイト上で使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。<br />
   </p>
-  <a href="https://konosubafd.jp/" class="btn btn-info mt-4">このファン公式サイト</a>
+  <a href="https://konosubafd.jp/" class="btn btn-info mt-4"
+    >このファン公式サイト</a
+  >
 </template>
