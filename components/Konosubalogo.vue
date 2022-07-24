@@ -6,7 +6,7 @@
         alt="logo"
         width="392"
         height="392"
-        class="hidden lg:block"/>
+        class="hidden lg:block" />
     </picture>
   </div>
 </template>
