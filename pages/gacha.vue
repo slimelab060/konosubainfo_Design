@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <Header/>
-    
-    <Footer/>
-  </div>
+  <div></div>
 </template>
 
 <script setup></script>

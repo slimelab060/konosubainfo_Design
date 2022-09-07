@@ -1,12 +1,8 @@
 <template>
   <div>
-    <Header />
-
     <div class="w-full px-4 py-16">
       <div class="mx-auto w-full max-w-md"></div>
     </div>
-
-    <Footer />
   </div>
 </template>
 
