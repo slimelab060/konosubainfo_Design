@@ -72,14 +72,27 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { Navigation, Pagination, Lazy, Autoplay } from "swiper";
+/**
+ ERROR  Error while formatting vite error: {
+ code: 'ERR_INVALID_URL_SCHEME'
+}
+
+Vite Modeのバグでモジュールを読み込むことができないので一時的に無効
+
+*/
+//import { Navigation, Pagination, Lazy, Autoplay } from "swiper";
+
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 //Swiperのモジュール読み込み
-const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
+//const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
 
 //画像バーナー(試験運用)
-const images = ["assets/images/infomationbanner/20220731/banner_1.png", "assets/images/test/banner_test.png", "assets/images/test/banner_test.png"];
+const images = [
+  "assets/images/infomationbanner/20220731/banner_1.png",
+  "assets/images/test/banner_test.png",
+  "assets/images/test/banner_test.png",
+];
 
 //カスタムPagination
 const swiperPagination = {
