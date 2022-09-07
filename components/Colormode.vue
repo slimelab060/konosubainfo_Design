@@ -1,7 +1,5 @@
 <template>
-  <select
-    v-model="colorMode.preference"
-    class="select select-bordered max-w-xs">
+  <select v-model="colorMode.preference" class="select select-bordered max-w-xs">
     <option v-for="theme in themes" :key="theme" :value="theme.value">
       {{ theme.name }}
     </option>

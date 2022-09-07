@@ -1,3 +1,0 @@
-# TEST
-
-[Back home](/)

@@ -6,7 +6,7 @@ const url = 'http://localhost:3000'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-
+  app: {
     head: {
       bodyAttrs: {
         class: 'min-h-screen'
@@ -31,14 +31,14 @@ export default defineNuxtConfig({
       link: [
         { hid: 'favicon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ]
-    },
+    }
+  },
 
 
    modules: ['@nuxtjs/color-mode',
              '@nuxt/content',
              '@nuxtjs/tailwindcss',
-             '@pinia/nuxt',
-             '@vueuse/nuxt'
+             '@vueuse/nuxt',
             ],
             
     css: ["@/assets/css/main.css"],
