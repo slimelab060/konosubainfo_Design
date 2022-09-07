@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <ClientOnly>
     <Swiper
-      @swiper="onSwiper"
       :slides-per-view="1"
       :centeredSlides="true"
       :space-between="10"
@@ -9,24 +8,18 @@
       :clickable="true"
       :loop="true"
       :navigation="swiperNavigation"
-      :modules="[Navigation, Pagination, A11y, Lazy, Thumbs, Autoplay]"
-      :pagination="pagination"
+      :pagination="swiperPagination"
+      :modules="swiperModules"
       :preload-images="false"
-      lazy
-      :thumbs="{ swiper: thumbs }">
-      <SwiperSlide
-        v-for="n in images"
-        :key="n"
-        class="mx-auto swiper-lazy-preloader">
-        <img
-          :src="n"
-          class="swiper-lazy w-full rounded-lg object-cover object-center" />
+      lazy>
+      <SwiperSlide v-for="n in images" :key="n" class="mx-auto swiper-lazy-preloader">
+        <img :src="n" class="swiper-lazy w-full rounded-lg object-cover object-center" />
       </SwiperSlide>
-      <div slot="button-prev" class="swiper-button-prev hidden md:inline"></div>
+      <div slot="button-prev" class="swiper-button-prev"></div>
       <div slot="button-next" class="swiper-button-next"></div>
     </Swiper>
     <div slot="pagination" class="swiper-pagination"></div>
-  </div>
+  </ClientOnly>
 </template>
 
 <style>
@@ -36,22 +29,24 @@
   content: none !important;
 }
 
-/*カスタム矢印 */
-.swiper-button-prev,
-.swiper-button-next {
-  width: 50px;
-  height: 50px;
-  background-size: 27px 45px;
-}
+@media screen and (min-width: 1024px) {
+  /*カスタム矢印 */
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 27px;
+    height: 46px;
+    background-size: 27px 45px;
+  }
 
-/*カスタム矢印 */
-.swiper-button-prev {
-  background-image: url("assets/img/nextprev.svg");
-  transform: scale(-1, 1);
-}
+  /*カスタム矢印 */
+  .swiper-button-prev {
+    background-image: url("assets/images/nextprev.svg");
+    transform: scale(-1, 1);
+  }
 
-.swiper-button-next {
-  background-image: url("assets/img/nextprev.svg");
+  .swiper-button-next {
+    background-image: url("assets/images/nextprev.svg");
+  }
 }
 
 /*カスタムナビゲーション色変更 */
@@ -71,67 +66,30 @@
 }
 </style>
 
-<script>
-import { ref, watch, toRefs } from "vue";
-import { Navigation, Pagination, A11y, Lazy, Thumbs, Autoplay } from "swiper";
+<script setup>
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { Navigation, Pagination, Lazy, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  props: {
-    currentSlide: Number,
-    thumbs: Object,
-  },
+//Swiperのモジュール読み込み
+const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
 
-  setup(props) {
-    const swiperRef = ref(null);
+//画像バーナー(試験運用)
+const images = ["assets/images/infomationbanner/20220731/banner_1.png", "assets/images/test/banner_test.png", "assets/images/test/banner_test.png"];
 
-    const { currentSlide } = toRefs(props);
+//カスタムPagination
+const swiperPagination = {
+  el: ".swiper-pagination",
+  clickable: true,
+};
 
-    watch(currentSlide, () => {
-      if (swiperRef.value !== null) {
-        swiperRef.value.slideTo(props.currentSlide);
-      }
-    });
-
-    const onSwiper = (swiper) => {
-      swiperRef.value = swiper;
-    };
-
-    return {
-      swiperRef,
-      onSwiper,
-      Autoplay,
-      images: [
-        "assets/img/infomationbanner/20220714/banner_1.png",
-        "assets/img/infomationbanner/20220714/banner_2.png",
-        "assets/img/infomationbanner/20220714/banner_3.png",
-        "assets/img/infomationbanner/20220714/banner_4.png",
-        "assets/img/infomationbanner/20220714/banner_5.png",
-        "assets/img/infomationbanner/20220714/banner_6.png",
-        "assets/img/infomationbanner/20220714/banner_7.png",
-        "assets/img/infomationbanner/20220714/banner_8.png",
-      ],
-      Navigation,
-      Pagination,
-      A11y,
-      Lazy,
-      Thumbs,
-
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: false,
-      },
-
-      swiperNavigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    };
-  },
+//カスタムNavigation
+const swiperNavigation = {
+  nextEl: ".swiper-button-next",
+  prevEl: ".swiper-button-prev",
 };
 </script>
