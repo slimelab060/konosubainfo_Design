@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <Header/>
-    
-    <Footer/>
-  </div>
+  <div></div>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "information",
+});
+</script>
