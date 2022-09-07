@@ -28,7 +28,7 @@
               >このファンまとめ</span
             >
           </div>
-          <span class="font-mono text-sm text-opacity-50">alpha3.0 b0907-355</span>
+          <span class="font-mono text-sm text-opacity-50">alpha3.0 b0907-356</span>
         </nuxt-link>
       </div>
 
