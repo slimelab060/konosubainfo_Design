@@ -2,6 +2,8 @@
   <div></div>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+<script setup>
+definePageMeta({
+  layout: "information",
+});
+</script>

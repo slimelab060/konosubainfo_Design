@@ -5,6 +5,8 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
-
-<style scoped></style>
+<script setup>
+definePageMeta({
+  layout: "information",
+});
+</script>
