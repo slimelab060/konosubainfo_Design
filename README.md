@@ -18,7 +18,7 @@ Functional implementation will be created in a separate repository.
 これを公開している理由は、単にバージョン管理と保存が目的です。  
 Twitter にリンク張るのは正式版のみで開発版は Discord 経由にして見る人を分けています。
 
-## このファンまとめ オリジナル alpha 版 更新履歴
+## このファンまとめ フロントエンド 更新履歴
 
 :pushpin:**バージョンの名称**:pushpin:
 

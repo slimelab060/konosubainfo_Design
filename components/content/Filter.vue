@@ -30,8 +30,6 @@
 </style>
 
 <script setup>
-import Multiselect from "@vueform/multiselect";
-
 const options = [
   { value: "judy", name: "Judy", image: "https://randomuser.me/api/portraits/med/women/1.jpg" },
   { value: "jane", name: "Jane", image: "https://randomuser.me/api/portraits/med/women/2.jpg" },
