@@ -1,11 +1,12 @@
 node_modules
 *.log*
 .nuxt
+dist
 .nitro
 .cache
 .output
 .env
 .png
 .jpg
-.log
+*.log
 .vscode

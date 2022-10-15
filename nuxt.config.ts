@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
 
 const title = 'このファンまとめ'
 const description = 'このファンの攻略、キャラなどの情報まとめサイトです。'
@@ -40,9 +39,11 @@ export default defineNuxtConfig({
              '@nuxtjs/tailwindcss',
              '@vueuse/nuxt',
             ],
-            
+
+
     css: ["@/assets/css/main.css"],
     build: {
+      transpile: ['swiper'],
       postcss: {
         postcssOptions: {
           plugins: {
@@ -58,5 +59,7 @@ export default defineNuxtConfig({
       classSuffix: '',
       dataValue:  'theme',
     },
+
+
 
   });
