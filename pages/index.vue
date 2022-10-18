@@ -2,8 +2,6 @@
   <div>
     <!--バックグラウンド背景-->
     <Background />
-    <!--このすばのロゴ-->
-    <Konosubalogo />
 
     <!--メインコンテンツ-->
     <div
@@ -40,9 +38,7 @@
 
       <!--Twitterこのファン公式埋め込み-->
       <div class="lg:col-start-2 lg:row-start-2 lg:row-end-5">
-        <div class="bg-base-200 rounded-lg">
-          <Twitter />
-        </div>
+        <div class="bg-base-200 rounded-lg"><Twitter /></div>
       </div>
     </div>
   </div>

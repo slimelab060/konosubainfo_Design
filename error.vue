@@ -2,7 +2,7 @@
   <Header />
   <div class="grid place-items-center h-screen">
     <div class="text-center">
-      <p class="sticky text-8xl md:text-[9rem] cursor-pointer mb-8" @click="handleError">
+      <p class="sticky text-8xl md:text-[8rem] cursor-pointer mb-8" @click="handleError">
         {{ error.statusCode }} :(
       </p>
       <p class="sticky text-2xl md:text-4xl sm:px-0 font-light mb-4 leading-tight">
@@ -19,10 +19,7 @@
         <img :src="imgrand" width="340px" height="340px" />
       </div>
 
-      <p class="text-lg mb-4">
-        おっと！ページが見つかりません<br />
-        お探しのページは、移動または削除されて可能性がありますね！<br />
-      </p>
+      <p class="text-lg mb-4">エラー発生した場合は「ホームへ戻る」を押してください。</p>
       <div class="w-full sticky flex items-center justify-center">
         <button class="btn" @click="handleError">ホームへ戻る</button>
       </div>
