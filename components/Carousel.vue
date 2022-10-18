@@ -80,12 +80,12 @@ import "swiper/css/pagination";
 Vite Modeのバグでモジュールを読み込むことができないので一時的に無効
 
 */
-//import { Navigation, Pagination, Lazy, Autoplay } from "swiper";
+import { Navigation, Pagination, Lazy, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 //Swiperのモジュール読み込み
-//const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
+const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
 
 //画像バーナー(試験運用)
 const images = [
