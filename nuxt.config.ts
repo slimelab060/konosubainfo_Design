@@ -27,12 +27,8 @@ export default defineNuxtConfig({
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
         { hid: 'twitter:site', name: 'twitter:site', content: '@Twitter' }
       ],
-      link: [
-        { hid: 'favicon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ]
     }
   },
-
 
    modules: ['@nuxtjs/color-mode',
              '@nuxt/content',
@@ -40,19 +36,14 @@ export default defineNuxtConfig({
              '@vueuse/nuxt',
             ],
 
-
     css: ["@/assets/css/main.css"],
     build: {
       transpile: ['swiper'],
-      postcss: {
-        postcssOptions: {
-          plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
-          },
-        },
-      },
     },
+
+postcss: {
+   plugins: { tailwindcss: {} }
+},
 
     colorMode: {
       preference: 'light', 
@@ -60,6 +51,6 @@ export default defineNuxtConfig({
       dataValue:  'theme',
     },
 
-
+  telemetry: false,
 
   });
