@@ -2,15 +2,14 @@
   <div
     class="relative bg-fixed pointer-events-none flex-none flex justify-center bg-cover select-none">
     <!--<nuxt-picture src="/images/bg_pc_top_2.5th.webp" loading="lazy" width="4500" height="1500" />-->
-
     <picture>
       <source
-        srcset="assets/images/headerback/1500x500_hellowin.webp"
+        srcset="~/assets/images/headerback/bg_pc_top_111.webp"
         media="(min-width: 1024px)"
         alt="wallpaper"
         width="2560"
-        height="1440" />
-      <img src="assets/images/other/none.webp" alt="none" />
+        height="980" />
+      <img src="~/assets/images/other/none.webp" alt="none0" />
     </picture>
 
     <div class="absolute mx-auto">
@@ -19,12 +18,12 @@
     -->
       <picture>
         <source
-          srcset="assets/images/headerback/logol.png"
+          srcset="~/assets/images/headerback/logol.png"
           media="(min-width: 1024px)"
           alt="logo"
           width="392"
           height="392" />
-        <img src="assets/images/other/none.webp" alt="none" />
+        <img src="~/assets/images/other/none.webp" alt="none" />
       </picture>
     </div>
   </div>
