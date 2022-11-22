@@ -30,10 +30,11 @@ export default defineNuxtConfig({
     }
   },
 
-   modules: ['@nuxtjs/color-mode',
-             '@nuxt/content',
-             '@nuxtjs/tailwindcss',
-             '@vueuse/nuxt',
+   modules: [
+            '@nuxtjs/tailwindcss',
+            '@nuxt/content',
+            '@nuxtjs/color-mode',
+            '@vueuse/nuxt',
             ],
 
     css: ["@/assets/css/main.css"],
