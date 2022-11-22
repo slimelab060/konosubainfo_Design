@@ -34,8 +34,11 @@ export default defineNuxtConfig({
             '@nuxtjs/tailwindcss',
             '@nuxt/content',
             '@nuxtjs/color-mode',
+            //'@nuxtjs/robots',
+            '@nuxt/image-edge',
             '@vueuse/nuxt',
             ],
+
 
     css: ["@/assets/css/main.css"],
     build: {
