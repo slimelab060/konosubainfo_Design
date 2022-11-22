@@ -11,7 +11,7 @@
 
       <div class="hidden xl:block">
         <div class="flex-none flex justify-center bg-cover">
-          <img src="assets/images/error/bg_error.webp" width="1280px" class="absolute" />
+          <img src="~/assets/images/error/bg_error.webp" width="1280px" class="absolute" />
         </div>
       </div>
 
@@ -31,29 +31,29 @@
 <script setup>
 //画像アドレス一覧
 const images = reactive([
-  "assets/images/error/E01.png",
-  "assets/images/error/E02.png",
-  "assets/images/error/E03.png",
-  "assets/images/error/E04-2.png",
-  "assets/images/error/E05.png",
-  "assets/images/error/E06.png",
-  "assets/images/error/E07.png",
-  "assets/images/error/E08.png",
-  "assets/images/error/E09.png",
-  "assets/images/error/E10.png",
-  "assets/images/error/E11.png",
-  "assets/images/error/E12.png",
-  "assets/images/error/E13.png",
-  "assets/images/error/E14.png",
-  "assets/images/error/E15.png",
-  "assets/images/error/E16.png",
-  "assets/images/error/E17.png",
-  "assets/images/error/E18.png",
-  "assets/images/error/E19.png",
-  "assets/images/error/E20.png",
-  "assets/images/error/E21.png",
-  "assets/images/error/E22.png",
-  "assets/images/error/E23.png",
+  "~assets/images/error/e01.png",
+  "~assets/images/error/e02.png",
+  "~assets/images/error/e03.png",
+  "~assets/images/error/e04-2.png",
+  "~assets/images/error/e05.png",
+  "~assets/images/error/e06.png",
+  "~assets/images/error/e07.png",
+  "~assets/images/error/e08.png",
+  "~assets/images/error/e09.png",
+  "~assets/images/error/e10.png",
+  "~assets/images/error/e11.png",
+  "~assets/images/error/e12.png",
+  "~assets/images/error/e13.png",
+  "~assets/images/error/e14.png",
+  "~assets/images/error/e15.png",
+  "~assets/images/error/e16.png",
+  "~assets/images/error/e17.png",
+  "~assets/images/error/e18.png",
+  "~assets/images/error/e19.png",
+  "~assets/images/error/e20.png",
+  "~assets/images/error/e21.png",
+  "~assets/images/error/e22.png",
+  "~assets/images/error/e23.png",
 ]);
 
 //キャラごとのエラーメッセージ(未使用)

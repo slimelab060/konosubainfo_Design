@@ -86,11 +86,16 @@ as SVG and JS file types.
 */
 
 const menutitle = [
-  { name: "ホーム", path: "/assets/icons/home.svg", url: "/", value: "home" },
-  { name: "イベント", path: "/assets/icons/information-circle.svg", url: "/event", value: "event" },
-  { name: "ガチャ", path: "/assets/icons//gacha.svg", url: "/gacha", value: "gacha" },
-  { name: "初心者", path: "/assets/icons/beginner.svg", url: "/beginner", value: "beginner" },
-  { name: "その他", path: "/assets/icons/view-grid.svg", url: "/other", value: "other" },
+  { name: "ホーム", path: "_nuxt/assets/images/icons/home.svg", url: "/", value: "home" },
+  {
+    name: "イベント",
+    path: "/assets/icons/information-circle.svg",
+    url: "/event",
+    value: "event",
+  },
+  { name: "ガチャ", path: "~assets/icons/gacha.svg", url: "/gacha", value: "gacha" },
+  { name: "初心者", path: "~/assets/icons/beginner.svg", url: "/beginner", value: "beginner" },
+  { name: "その他", path: "~/assets/icons/view-grid.svg", url: "/other", value: "other" },
 ];
 
 const quest = [
@@ -98,7 +103,7 @@ const quest = [
   { name: "アリーナEX", path: "/assets/icons/shield.svg", url: "/arena", value: "arenaex" },
   {
     name: "ダンジョン",
-    path: "/assets/icons/dungeon-svgrepo-com.svg",
+    path: "~/assets/icons/dungeon-svgrepo-com.svg",
     url: "/dungeon",
     value: "dungeon",
   },
