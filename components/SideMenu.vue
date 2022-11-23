@@ -90,27 +90,27 @@ const menutitle = [
   {
     name: "イベント",
     path: "/assets/icons/information-circle.svg",
-    url: "/event",
+    url: "/datalist",
     value: "event",
   },
-  { name: "ガチャ", path: "~assets/icons/gacha.svg", url: "/gacha", value: "gacha" },
-  { name: "初心者", path: "~/assets/icons/beginner.svg", url: "/beginner", value: "beginner" },
-  { name: "その他", path: "~/assets/icons/view-grid.svg", url: "/other", value: "other" },
+  { name: "ガチャ", path: "~assets/icons/gacha.svg", url: "/datalist", value: "gacha" },
+  { name: "初心者", path: "~/assets/icons/beginner.svg", url: "/datalist", value: "beginner" },
+  { name: "その他", path: "~/assets/icons/view-grid.svg", url: "/datalist", value: "other" },
 ];
 
 const quest = [
-  { name: "アリーナ", path: "/assets/icons/shield.svg", url: "/arena", value: "arena" },
-  { name: "アリーナEX", path: "/assets/icons/shield.svg", url: "/arena", value: "arenaex" },
+  { name: "アリーナ", path: "~/assets/icons/shield.svg", url: "/datalist", value: "arena" },
+  { name: "アリーナEX", path: "~/assets/icons/shield.svg", url: "/datalist", value: "arenaex" },
   {
     name: "ダンジョン",
     path: "~/assets/icons/dungeon-svgrepo-com.svg",
-    url: "/dungeon",
+    url: "/datalist",
     value: "dungeon",
   },
   {
     name: "名声クエスト",
-    path: "/assets/icons//famequest.svg",
-    url: "/famequest",
+    path: "~/assets/icons/famequest.svg",
+    url: "/datalist",
     value: "famequest",
   },
 ];
@@ -118,19 +118,19 @@ const quest = [
 const chara = [
   {
     name: "キャラクタ",
-    path: "/assets/icons/character.svg",
-    url: "/character",
+    path: "~/assets/icons/character.svg",
+    url: "/datalist",
     value: "character",
   },
-  { name: "アシスト", path: "/assets/icons/assist.svg", url: "/assists", value: "assists" },
+  { name: "アシスト", path: "~/assets/icons/assist.svg", url: "/datalist", value: "assists" },
 ];
 
 const blacksmith = [
-  { name: "武器", path: "/assets/icons//sword.svg", url: "/weapon", value: "weapons" },
+  { name: "武器", path: "~/assets/icons//sword.svg", url: "/datalist", value: "weapons" },
   {
     name: "装飾",
-    path: "/assets/icons/earrings.svg",
-    url: "/weapon",
+    path: "~/assets/icons/earrings.svg",
+    url: "/datalist",
     value: "jewelry",
   },
 ];
