@@ -45,7 +45,7 @@
   }
 
   .swiper-button-next {
-    background-image: url("assets/images/nextprev.svg");
+    background-image: url("~assets/images/nextprev.svg");
   }
 }
 
@@ -81,7 +81,6 @@ const swiperModules = [Navigation, Pagination, Lazy, Autoplay];
 
 //画像バーナー(試験運用)
 const images = [
-  "/_nuxt/assets/images/infomationbanner/20220731/banner_1.png",
   "/_nuxt/assets/images/test/banner_test.png",
   "/_nuxt/assets/images/test/banner_test.png",
 ];
