@@ -40,12 +40,12 @@
 
   /*カスタム矢印 */
   .swiper-button-prev {
-    background-image: url("~/assets/images/nextprev.svg");
+    background-image: url("~/assets/images/carousel/nextprev.svg");
     transform: scale(-1, 1);
   }
 
   .swiper-button-next {
-    background-image: url("~assets/images/nextprev.svg");
+    background-image: url("~assets/images/carousel/nextprev.svg");
   }
 }
 

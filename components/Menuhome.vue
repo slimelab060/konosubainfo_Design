@@ -5,49 +5,49 @@
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/information-circle.svg" /><span>イベント</span>
+          <img src="~/assets/images/icons/information-circle.svg" /><span>イベント</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/character.svg" /><span>キャラクタ</span>
+          <img src="~/assets/images/icons/character.svg" /><span>キャラクタ</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/gacha.svg" /><span>ガチャ</span>
+          <img src="~/assets/images/icons/gacha.svg" /><span>ガチャ</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/sword.svg" /><span>武器</span>
+          <img src="~/assets/images/icons/sword.svg" /><span>武器</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/shield.svg" /><span>アリーナ</span>
+          <img src="~/assets/images/icons/shield.svg" /><span>アリーナ</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/famequest.svg" /><span>名声クエスト</span>
+          <img src="~/assets/images/icons/famequest.svg" /><span>名声クエスト</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/dungeon-svgrepo-com.svg" /><span>ダンジョン</span>
+          <img src="~/assets/images/icons/dungeon-svgrepo-com.svg" /><span>ダンジョン</span>
         </button></nuxt-link
       >
       <nuxt-link to="/datalist"
         ><button
           class="btn btn-block btn-outline px-4 py-3 flex justify-start gap-2 cursor-pointer">
-          <img src="~/assets/icons/beginner.svg" /><span>初心者</span>
+          <img src="~/assets/images/icons/beginner.svg" /><span>初心者</span>
         </button></nuxt-link
       >
     </div>
