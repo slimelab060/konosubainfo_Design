@@ -86,14 +86,14 @@ as SVG and JS file types.
 */
 
 const menutitle = [
-  { name: "ホーム", path: "_nuxt/assets/images/icons/home.svg", url: "/", value: "home" },
+  { name: "ホーム", path: "~/assets/images/icons/home.svg", url: "/", value: "home" },
   {
     name: "イベント",
-    path: "/assets/icons/information-circle.svg",
+    path: "~/assets/images/icons/information-circle.svg",
     url: "/datalist",
     value: "event",
   },
-  { name: "ガチャ", path: "~assets/icons/gacha.svg", url: "/datalist", value: "gacha" },
+  { name: "ガチャ", path: "~/assets/icons/gacha.svg", url: "/datalist", value: "gacha" },
   { name: "初心者", path: "~/assets/icons/beginner.svg", url: "/datalist", value: "beginner" },
   { name: "その他", path: "~/assets/icons/view-grid.svg", url: "/datalist", value: "other" },
 ];
