@@ -34,6 +34,10 @@ Twitter にリンク張るのは正式版のみで開発版は Discord 経由に
 なのである程度まとまったコンポーネントを使用することにして決めたのが、`PrimeVue`です。  
 他のフレームワーク`Vuetify3`や`Quasar`も検討しましたが、`Vuetify3`は出たばっかりでコンポーネントが少なく`Quasar`は cli でないと SSR 使えないので検討を見送りました。
 
+#アップデート内容
+更新履歴はこちらに移動しました。
+[更新履歴](https://github.com/slimelab060/Konosubainfo_Design/blob/beta2/CHANGELOG.md)
+
 ## ライセンス
 
 これはフロント部分のワイヤーフレームだけを公開していますので MIT ライセンスになります。
