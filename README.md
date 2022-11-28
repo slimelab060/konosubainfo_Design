@@ -8,7 +8,6 @@ This repository produces the design for the Konofan summary website.
 
 Functional implementation will be created in a separate repository.
 
-![picture 1](assets/docimg/1.png)
 ![picture 2](assets/docimg/2.png)
 ![picture 3](assets/docimg/3.png)
 ![picture 4](assets/docimg/4.png)
