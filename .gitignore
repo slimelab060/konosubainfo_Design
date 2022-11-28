@@ -10,3 +10,5 @@ dist
 .jpg
 *.log
 .vscode
+/assets/images/error/
+/assets/images/headerback/
