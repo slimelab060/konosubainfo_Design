@@ -32,7 +32,7 @@ Twitter にリンク張るのは正式版のみで開発版は Discord 経由に
 
 # アップデート内容
 
-[更新履歴](https://github.com/slimelab060/Konosubainfo_Design/blob/beta2/CHANGELOG.md)はこちらに移動しました。
+[更新履歴](https://github.com/slimelab060/Konosubainfo_Design/blob/main/CHANGELOG.md)はこちらに移動しました。
 
 # ライセンス
 
