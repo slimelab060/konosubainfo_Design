@@ -2,7 +2,7 @@
   <div class="text-sm breadcrumbs">
     <ul>
       <li><nuxt-link to="/"> ホーム </nuxt-link></li>
-      <li><nuxt-link to="/arena"> アリーナ </nuxt-link></li>
+      <li><nuxt-link to="/datalist"> アリーナ </nuxt-link></li>
     </ul>
   </div>
 </template>

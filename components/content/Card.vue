@@ -5,12 +5,12 @@
       <div class="avatar">
         <div class="w-24 rounded-lg">
           <figure>
-            <img src="assets/images/charalist/tmp/100.png" alt="character" />
+            <img src="~/assets/images/error/e02.png" alt="character" />
           </figure>
         </div>
       </div>
       <h2 class="card-title">
-        <div class="text-2xl">キャラ名</div>
+        <div class="text-2xl">アクア</div>
       </h2>
     </div>
 
@@ -22,7 +22,7 @@
       <div class="badge">限定キャラ</div>
       <div class="badge">コラボキャラ</div>
 
-      <p>テキストテキストテキストテキストテキスト</p>
+      <p><br />駄女神</p>
     </div>
   </div>
 </template>
