@@ -1,16 +1,13 @@
 ![artbord](assets/docimg/artbord.jpg)
 
-# Konosubainfo_Design
+# このファンフロントソースコード
 
-This repository produces the design for the Konofan summary website.
-
-## Information
-
-Functional implementation will be created in a separate repository.
-
+このリポジトリは、サイトのフロント部分を公開しています。
+なので画像はありません。
+下記の画像はイメージです。  
+今後大きく変化する予定なので参考程度に見てください。
 ![picture 2](assets/docimg/2.png)
 ![picture 3](assets/docimg/3.png)
-![picture 4](assets/docimg/4.png)
 
 ## これは何？
 
@@ -38,8 +35,7 @@ Twitter にリンク張るのは正式版のみで開発版は Discord 経由に
 
 [更新履歴](https://github.com/slimelab060/Konosubainfo_Design/blob/beta2/CHANGELOG.md)はこちらに移動しました。
 
-## ライセンス
+# ライセンス
 
-これはフロント部分のワイヤーフレームだけを公開していますので MIT ライセンスになります。
-
-[MIT](https://github.com/slimelab060/Konosubainfo_Design/blob/main/LICENSE)
+これはフロント部分のワイヤーフレームだけを公開していますので [MIT](https://github.com/slimelab060/Konosubainfo_Design/blob/main/LICENSE)
+ライセンスになります。
