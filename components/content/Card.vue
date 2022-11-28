@@ -22,7 +22,7 @@
       <div class="badge">限定キャラ</div>
       <div class="badge">コラボキャラ</div>
 
-      <p>駄女神</p>
+      <p><br />駄女神</p>
     </div>
   </div>
 </template>
