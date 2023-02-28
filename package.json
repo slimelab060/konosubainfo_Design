@@ -15,8 +15,8 @@
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
     "autoprefixer": "^10.4.13",
-    "daisyui": "^2.51.0",
-    "nuxt": "^3.2.2",
+    "daisyui": "^2.51.2",
+    "nuxt": "^3.2.3",
     "postcss": "^8.4.21",
     "swiper": "^8.4.4"
   },
