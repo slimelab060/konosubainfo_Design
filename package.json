@@ -16,7 +16,7 @@
     "@vueuse/nuxt": "^9.13.0",
     "autoprefixer": "^10.4.14",
     "daisyui": "^2.51.5",
-    "nuxt": "^3.3.1",
+    "nuxt": "^3.3.2",
     "postcss": "^8.4.21",
     "swiper": "^8.4.4"
   },
