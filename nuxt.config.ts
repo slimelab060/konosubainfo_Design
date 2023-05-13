@@ -35,7 +35,7 @@ export default defineNuxtConfig({
             '@nuxt/content',
             '@nuxtjs/color-mode',
             //'@nuxtjs/robots',
-            '@nuxt/image-edge',
+            //'@nuxt/image-edge',
             '@vueuse/nuxt',
             ],
 
