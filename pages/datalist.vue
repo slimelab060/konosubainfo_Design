@@ -8,7 +8,9 @@
     </div>
     <div class="w-full max-w-[97.5rem] px-4 mx-auto grid grid-cols-1 lg:grid-cols-[18em_1fr] gap-4">
       <div class="duration-200 relative hidden lg:inline-block">
-        <SideMenu2 />
+        <div class="p-2 bg-base-200">
+        <Menucolumn/>
+      </div>
       </div>
 
       <div class="bg-base-200">

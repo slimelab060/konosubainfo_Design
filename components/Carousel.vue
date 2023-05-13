@@ -45,7 +45,7 @@
   }
 
   .swiper-button-next {
-    background-image: url("~assets/images/carousel/nextprev.svg");
+    background-image: url("~/assets/images/carousel/nextprev.svg");
   }
 }
 
