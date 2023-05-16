@@ -28,7 +28,7 @@
               >このファンまとめ</span
             >
           </div>
-          <span class="font-mono text-sm text-opacity-50">beta2-2211??</span>
+          <span class="font-mono text-sm text-opacity-50">beta4-230507</span>
         </nuxt-link>
       </div>
 

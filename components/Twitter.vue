@@ -24,7 +24,7 @@ export default {
     };
   },
   mounted() {
-    window.twttr.widgets.load();
+    //window.twttr.widgets.load();
   },
 };
 </script>
