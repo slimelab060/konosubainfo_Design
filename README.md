@@ -13,6 +13,7 @@
   <p align="left">
 Nuxt3からNext.jsに移行したので、今後こちらのレポジトリの更新が止まる可能性があります。
   </p>
+  [![repository-url]]
 </div>
 
 [![license-shield][license-shield]][license-url]  
@@ -90,6 +91,7 @@ Twitter にリンク張るのは正式版のみで開発版は Discord 経由に
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/slimelab060/Konosubainfo_Design.svg?style=for-the-badge
 [license-url]: https://github.com/slimelab060/Konosubainfo_Design/blob/main/LICENSE
+[repository-url]: https://github.com/slimelab060/konosubainfonextjs
 [NuxtJS]:https://img.shields.io/badge/Nuxt-black?style=for-the-badge&logo=nuxt.js&logoColor=white
 [Nuxt-url]: https://nuxt.com/
 [Vue.js]:https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D
