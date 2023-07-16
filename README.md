@@ -4,12 +4,12 @@
     <img src="assets/docimg/logo.png" alt="Logo" width="128" height="128">
   </a>
 
-<h2 align="center">このファンまとめサイト UI</h2>
+<h2 align="center">このファンまとめサイト UI Nuxt3</h2>
 
   <p align="center">
-    サイトのUIソースコード  
+    サイトのUIソースコード
   </p>
-
+   <h3>お知らせ</h3>
   <p align="left">
 Nuxt3からNext.jsに移行したので、今後こちらのレポジトリの更新が止まる可能性があります。
   </p>
