@@ -13,8 +13,9 @@
   <p align="left">
 Nuxt3からNext.jsに移行したので、今後こちらのレポジトリの更新が止まる可能性があります。
   </p>
-  [![repository-url]]
 </div>
+
+  [移行先のレポジトリはこちら](https://github.com/slimelab060/konosubainfonextjs)
 
 [![license-shield][license-shield]][license-url]  
 
@@ -80,7 +81,6 @@ Twitter にリンク張るのは正式版のみで開発版は Discord 経由に
 - [ ] フィルター選択
 
 ## 4.更新履歴
-
 [更新履歴](https://github.com/slimelab060/Konosubainfo_Design/blob/main/CHANGELOG.md)はこちらに移動しました。
 
 ## 5. ライセンス
