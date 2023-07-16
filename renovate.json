@@ -3,7 +3,7 @@
   
     "extends": ["@nuxtjs"],
     "timezone": "Asia/Tokyo",
-    "schedule": ["before 10am"],
+    "schedule": ["before 10pm"],
     "labels": ["renovate"],
     "prConcurrentLimit": 5,
     "dependencyDashboard": false,
