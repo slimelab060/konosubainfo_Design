@@ -17,7 +17,7 @@
     "autoprefixer": "^10.4.15",
     "daisyui": "^3.5.1",
     "nuxt": "^3.6.5",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.28",
     "swiper": "^8.4.4"
   },
   "dependencies": {
