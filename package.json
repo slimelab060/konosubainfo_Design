@@ -12,12 +12,12 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "@tailwindcss/typography": "^0.5.10",
-    "@vueuse/core": "^10.6.1",
-    "@vueuse/nuxt": "^10.6.1",
+    "@vueuse/core": "^10.7.0",
+    "@vueuse/nuxt": "^10.7.0",
     "autoprefixer": "^10.4.16",
-    "daisyui": "^4.4.7",
+    "daisyui": "^4.4.19",
     "nuxt": "^3.8.2",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.32",
     "swiper": "^8.4.4"
   },
   "dependencies": {
